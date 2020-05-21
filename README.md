@@ -13,3 +13,21 @@ In the first part of [the Tutorial][tutorial-url] you will know how to connect t
 [website-url]: https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/
 [tutorial-url]: documentation/home.md
 [cryptocompare-url]: https://www.cryptocompare.com/
+
+## Commands
+
+```python
+git clone https://github.com/Molten-Ice/charting.git
+git submodule update --init --recursive
+
+npx serve
+```
+
+
+```
+Create a new repo at github.
+Clone the wanted repo to your local machine.
+git remote rename origin upstream
+git remote add origin URL_TO_GITHUB_REPO
+git push origin master
+```
